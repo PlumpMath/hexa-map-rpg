@@ -1,6 +1,6 @@
 hexa-map-rpg
 ============
-My hexagonal map based RPG project in 2012.
+My hexagonal map based RPG project in 2011 ~ 2012.
 
 ![screenshot-height](https://raw.githubusercontent.com/bakyeono/hexa-map-rpg/master/document/screenshot-height.jpg)
 
