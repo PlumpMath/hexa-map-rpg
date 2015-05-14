@@ -29,7 +29,7 @@ It never finished its planned features and never released as a playable game.
 
 GPL v2
 
-Some image resources (creature/character tiles) are of [Dungeon Crawl Stone Soup].
+Some image resources (creature/character tiles) are of [Dungeon Crawl Stone Soup][crawl].
 
 
 [sdl]: https://www.libsdl.org
