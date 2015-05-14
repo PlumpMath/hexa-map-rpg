@@ -1,0 +1,1 @@
+Put "NanumGothicBold.ttf" file in this directory.

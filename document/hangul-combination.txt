@@ -1,0 +1,57 @@
+// 변수 설명
+string str           // 현재까지 완성 문장
+string combine       // 현재 조합중인 글자
+int    jaso_a        // 현재 글자의 초성
+int    jaso_b        // 현재 글자의 중성
+int    jaso_c        // 현재 글자의 종성
+int    combine_level // 현재 글자의 조합 단계를 나타냄
+                     // 0:초기상태    1:초성      2:초+중성    3:중성수정
+                     // 4:초+중+종성  5:종성수정  6:중성만 입력된 비정상적 상태
+
+// combine_level과 키 입력에 따른 처리
+case (combine_level == 0) :
+자음 입력(ㄱ) : str = \0   | combine = ㄱ | combine_level = 1
+모음 입력(ㅗ) : str = \0   | combine = ㅗ | combine_level = 6
+기타 입력(1 ) : str = 1    | combine = \0 | combine_level = 0
+backspace     : str = \0   | combine = \0 | combine_level = 0
+
+case (combine_level == 1) :
+자음 입력(ㄴ) : str = ㄱ   | combine = ㄴ | combine_level = 1
+모음 입력(ㅗ) : str = \0   | combine = 고 | combine_level = 2
+기타 입력(1)  : str = ㄱ1  | combine = \0 | combine_level = 0
+backspace     : str = \0   | combine = \0 | combine_level = 0
+
+case (combine_level == 2) :
+자음 입력(ㄹ) : str = \0   | combine = 골 | combine_level = 4
+자음 입력(ㅃ) : str = 고   | combine = ㅃ | combine_level = 1
+모음 입력(ㅜ) : str = 고   | combine = ㅜ | combine_level = 6
+모음 입력(ㅏ) : str = \0   | combine = 과 | combine_level = 3
+기타 입력(1)  : str = 가1  | combine = \0 | combine_level = 0
+backspace     : str = \0   | combine = ㄱ | combine_level = 1
+
+case (combine_level == 3) :
+자음 입력(ㄹ) : str = \0   | combine = 괄 | combine_level = 4
+자음 입력(ㅃ) : str = 과   | combine = ㅃ | combine_level = 1
+모음 입력(ㅓ) : str = 과   | combine = ㅓ | combine_level = 6
+기타 입력(1)  : str = 과1  | combine = \0 | combine_level = 0
+backspace     : str = \0   | combine = 고 | combine_level = 2
+
+case (combine_level == 4) :
+자음 입력(ㄷ) : str = 괄   | combine = ㄷ | combine_level = 1
+자음 입력(ㅁ) : str = \0   | combine = 괆 | combine_level = 5
+자음 입력(ㅃ) : str = 괄   | combine = ㅃ | combine_level = 1
+모음 입력(ㅓ) : str = 과   | combine = 러 | combine_level = 2
+기타 입력(1)  : str = 괄1  | combine = \0 | combine_level = 0
+backspace     : str = \0   | combine = 과 | combine_level = 3 or 2
+
+case (combine_level == 5) :
+자음 입력(ㄷ) : str = 괆   | combine = ㄷ | combine_level = 1
+모음 입력(ㅓ) : str = 괄   | combine = 머 | combine_level = 2
+기타 입력(1)  : str = 괆1  | combine = \0 | combine_level = 0
+backspace     : str = \0   | combine = 괄 | combine_level = 4
+
+case (combine_level == 6) :
+자음 입력(ㄱ) : str = ㅏ   | combine = ㄱ | combine_level = 1
+모음 입력(ㅓ) : str = ㅏ   | combine = ㅓ | combine_level = 6
+기타 입력(1)  : str = ㅏ1  | combine = \0 | combine_level = 0
+backspace     : str = \0   | combine = \0 | combine_level = 0

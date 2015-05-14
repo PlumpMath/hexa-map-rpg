@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="struggle" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\struggle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\struggle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++0x" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDLmain -lSDL -lSDL_image -lSDL_ttf" />
+		</Linker>
+		<Unit filename="src\AlignType.h" />
+		<Unit filename="src\Color.h" />
+		<Unit filename="src\Coord.h" />
+		<Unit filename="src\Creature.cpp" />
+		<Unit filename="src\Creature.h" />
+		<Unit filename="src\CreatureTemplate.cpp" />
+		<Unit filename="src\CreatureTemplate.h" />
+		<Unit filename="src\CreatureVector.cpp" />
+		<Unit filename="src\CreatureVector.h" />
+		<Unit filename="src\DataManager.cpp" />
+		<Unit filename="src\DataManager.h" />
+		<Unit filename="src\Dialog.cpp" />
+		<Unit filename="src\Dialog.h" />
+		<Unit filename="src\Draw.cpp" />
+		<Unit filename="src\Draw.h" />
+		<Unit filename="src\GenderType.h" />
+		<Unit filename="src\HexDir.h" />
+		<Unit filename="src\HexPos.h" />
+		<Unit filename="src\LandType.h" />
+		<Unit filename="src\LocalPlace.cpp" />
+		<Unit filename="src\LocalPlace.h" />
+		<Unit filename="src\LocalStage.cpp" />
+		<Unit filename="src\LocalStage.h" />
+		<Unit filename="src\MapEditor.cpp" />
+		<Unit filename="src\MapEditor.h" />
+		<Unit filename="src\MoveType.h" />
+		<Unit filename="src\ObjectTemplate.cpp" />
+		<Unit filename="src\ObjectTemplate.h" />
+		<Unit filename="src\ObjectType.h" />
+		<Unit filename="src\Random.cpp" />
+		<Unit filename="src\Random.h" />
+		<Unit filename="src\SeeType.h" />
+		<Unit filename="src\Sight.cpp" />
+		<Unit filename="src\Sight.h" />
+		<Unit filename="src\Sound.cpp" />
+		<Unit filename="src\Sound.h" />
+		<Unit filename="src\StringScanner.cpp" />
+		<Unit filename="src\StringScanner.h" />
+		<Unit filename="src\TerrainTemplate.cpp" />
+		<Unit filename="src\TerrainTemplate.h" />
+		<Unit filename="src\TerrainType.h" />
+		<Unit filename="src\TextFrame.cpp" />
+		<Unit filename="src\TextFrame.h" />
+		<Unit filename="src\TileRef.h" />
+		<Unit filename="src\Tileset.cpp" />
+		<Unit filename="src\Tileset.h" />
+		<Unit filename="src\TilesetType.h" />
+		<Unit filename="src\Time.cpp" />
+		<Unit filename="src\Time.h" />
+		<Unit filename="src\Timer.cpp" />
+		<Unit filename="src\Timer.h" />
+		<Unit filename="src\WorldObjectType.h" />
+		<Unit filename="src\WorldPlace.cpp" />
+		<Unit filename="src\WorldPlace.h" />
+		<Unit filename="src\WorldStage.cpp" />
+		<Unit filename="src\WorldStage.h" />
+		<Unit filename="src\WorldTerrainType.h" />
+		<Unit filename="src\adplug\a2m.cpp" />
+		<Unit filename="src\adplug\a2m.h" />
+		<Unit filename="src\adplug\adl.cpp" />
+		<Unit filename="src\adplug\adl.h" />
+		<Unit filename="src\adplug\adlibemu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\adplug\adlibemu.h" />
+		<Unit filename="src\adplug\adplug.cpp" />
+		<Unit filename="src\adplug\adplug.h" />
+		<Unit filename="src\adplug\adtrack.cpp" />
+		<Unit filename="src\adplug\adtrack.h" />
+		<Unit filename="src\adplug\amd.cpp" />
+		<Unit filename="src\adplug\amd.h" />
+		<Unit filename="src\adplug\analopl.cpp" />
+		<Unit filename="src\adplug\analopl.h" />
+		<Unit filename="src\adplug\bam.cpp" />
+		<Unit filename="src\adplug\bam.h" />
+		<Unit filename="src\adplug\bmf.cpp" />
+		<Unit filename="src\adplug\bmf.h" />
+		<Unit filename="src\adplug\cff.cpp" />
+		<Unit filename="src\adplug\cff.h" />
+		<Unit filename="src\adplug\cmf.cpp" />
+		<Unit filename="src\adplug\cmf.h" />
+		<Unit filename="src\adplug\d00.cpp" />
+		<Unit filename="src\adplug\d00.h" />
+		<Unit filename="src\adplug\database.cpp" />
+		<Unit filename="src\adplug\database.h" />
+		<Unit filename="src\adplug\debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\adplug\debug.h" />
+		<Unit filename="src\adplug\dfm.cpp" />
+		<Unit filename="src\adplug\dfm.h" />
+		<Unit filename="src\adplug\diskopl.cpp" />
+		<Unit filename="src\adplug\diskopl.h" />
+		<Unit filename="src\adplug\dmo.cpp" />
+		<Unit filename="src\adplug\dmo.h" />
+		<Unit filename="src\adplug\dro.cpp" />
+		<Unit filename="src\adplug\dro.h" />
+		<Unit filename="src\adplug\dro2.cpp" />
+		<Unit filename="src\adplug\dro2.h" />
+		<Unit filename="src\adplug\dtm.cpp" />
+		<Unit filename="src\adplug\dtm.h" />
+		<Unit filename="src\adplug\emuopl.cpp" />
+		<Unit filename="src\adplug\emuopl.h" />
+		<Unit filename="src\adplug\flash.cpp" />
+		<Unit filename="src\adplug\flash.h" />
+		<Unit filename="src\adplug\fmc.cpp" />
+		<Unit filename="src\adplug\fmc.h" />
+		<Unit filename="src\adplug\fmopl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\adplug\fmopl.h" />
+		<Unit filename="src\adplug\fprovide.cpp" />
+		<Unit filename="src\adplug\fprovide.h" />
+		<Unit filename="src\adplug\hsc.cpp" />
+		<Unit filename="src\adplug\hsc.h" />
+		<Unit filename="src\adplug\hsp.cpp" />
+		<Unit filename="src\adplug\hsp.h" />
+		<Unit filename="src\adplug\hybrid.cpp" />
+		<Unit filename="src\adplug\hybrid.h" />
+		<Unit filename="src\adplug\hyp.cpp" />
+		<Unit filename="src\adplug\hyp.h" />
+		<Unit filename="src\adplug\imf.cpp" />
+		<Unit filename="src\adplug\imf.h" />
+		<Unit filename="src\adplug\jbm.cpp" />
+		<Unit filename="src\adplug\jbm.h" />
+		<Unit filename="src\adplug\kemuopl.h" />
+		<Unit filename="src\adplug\ksm.cpp" />
+		<Unit filename="src\adplug\ksm.h" />
+		<Unit filename="src\adplug\lds.cpp" />
+		<Unit filename="src\adplug\lds.h" />
+		<Unit filename="src\adplug\mad.cpp" />
+		<Unit filename="src\adplug\mad.h" />
+		<Unit filename="src\adplug\mid.cpp" />
+		<Unit filename="src\adplug\mid.h" />
+		<Unit filename="src\adplug\mididata.h" />
+		<Unit filename="src\adplug\mkj.cpp" />
+		<Unit filename="src\adplug\mkj.h" />
+		<Unit filename="src\adplug\msc.cpp" />
+		<Unit filename="src\adplug\msc.h" />
+		<Unit filename="src\adplug\mtk.cpp" />
+		<Unit filename="src\adplug\mtk.h" />
+		<Unit filename="src\adplug\mystrcasecmp.cpp" />
+		<Unit filename="src\adplug\mystrcasecmp.h" />
+		<Unit filename="src\adplug\opl.h" />
+		<Unit filename="src\adplug\player.cpp" />
+		<Unit filename="src\adplug\player.h" />
+		<Unit filename="src\adplug\players.cpp" />
+		<Unit filename="src\adplug\players.h" />
+		<Unit filename="src\adplug\protrack.cpp" />
+		<Unit filename="src\adplug\protrack.h" />
+		<Unit filename="src\adplug\psi.cpp" />
+		<Unit filename="src\adplug\psi.h" />
+		<Unit filename="src\adplug\rad.cpp" />
+		<Unit filename="src\adplug\rad.h" />
+		<Unit filename="src\adplug\rat.cpp" />
+		<Unit filename="src\adplug\rat.h" />
+		<Unit filename="src\adplug\raw.cpp" />
+		<Unit filename="src\adplug\raw.h" />
+		<Unit filename="src\adplug\realopl.cpp" />
+		<Unit filename="src\adplug\realopl.h" />
+		<Unit filename="src\adplug\rix.cpp" />
+		<Unit filename="src\adplug\rix.h" />
+		<Unit filename="src\adplug\rol.cpp" />
+		<Unit filename="src\adplug\rol.h" />
+		<Unit filename="src\adplug\s3m.cpp" />
+		<Unit filename="src\adplug\s3m.h" />
+		<Unit filename="src\adplug\sa2.cpp" />
+		<Unit filename="src\adplug\sa2.h" />
+		<Unit filename="src\adplug\silentopl.h" />
+		<Unit filename="src\adplug\sng.cpp" />
+		<Unit filename="src\adplug\sng.h" />
+		<Unit filename="src\adplug\surroundopl.cpp" />
+		<Unit filename="src\adplug\surroundopl.h" />
+		<Unit filename="src\adplug\temuopl.cpp" />
+		<Unit filename="src\adplug\temuopl.h" />
+		<Unit filename="src\adplug\u6m.cpp" />
+		<Unit filename="src\adplug\u6m.h" />
+		<Unit filename="src\adplug\xad.cpp" />
+		<Unit filename="src\adplug\xad.h" />
+		<Unit filename="src\adplug\xsm.cpp" />
+		<Unit filename="src\adplug\xsm.h" />
+		<Unit filename="src\binio\binfile.cpp" />
+		<Unit filename="src\binio\binfile.h" />
+		<Unit filename="src\binio\binio.cpp" />
+		<Unit filename="src\binio\binio.h" />
+		<Unit filename="src\binio\binstr.cpp" />
+		<Unit filename="src\binio\binstr.h" />
+		<Unit filename="src\binio\binwrap.cpp" />
+		<Unit filename="src\binio\binwrap.h" />
+		<Unit filename="src\libs.h" />
+		<Unit filename="src\main.cpp" />
+		<Unit filename="src\progopt.cpp" />
+		<Unit filename="src\progopt.h" />
+		<Unit filename="src\types.h" />
+		<Unit filename="src\video.cpp" />
+		<Unit filename="src\video.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

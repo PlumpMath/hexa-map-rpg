@@ -1,0 +1,852 @@
+# depslib dependency file v1.0
+1333151329 source:d:\project\struggle\src\creature.cpp
+	"Creature.h"
+
+1324732605 d:\project\struggle\src\creature.h
+	"libs.h"
+	"types.h"
+	"Random.h"
+	"Sight.h"
+	"CreatureTemplate.h"
+	"CreatureVector.h"
+	"Draw.h"
+	"Time.h"
+
+1333038196 d:\project\struggle\src\libs.h
+	<vector>
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_audio.h>
+
+1323675297 d:\project\struggle\src\types.h
+
+1333058956 d:\project\struggle\src\random.h
+	<iostream>
+	<cstdlib>
+	<time.h>
+
+1323566649 d:\project\struggle\src\sight.h
+	"libs.h"
+	"types.h"
+	"HexPos.h"
+	"LocalPlace.h"
+
+1324729645 d:\project\struggle\src\hexpos.h
+	"libs.h"
+	"types.h"
+	"Coord.h"
+	"HexDir.h"
+
+1324729575 d:\project\struggle\src\coord.h
+	"types.h"
+
+1320027721 d:\project\struggle\src\hexdir.h
+
+1333232252 d:\project\struggle\src\localplace.h
+	"libs.h"
+	"types.h"
+	"Random.h"
+	"DataManager.h"
+	"TerrainTemplate.h"
+	"ObjectTemplate.h"
+	"LandType.h"
+	"Coord.h"
+	"MoveType.h"
+	"HexPos.h"
+
+1323674615 d:\project\struggle\src\datamanager.h
+	"libs.h"
+	"ObjectTemplate.h"
+	"TerrainTemplate.h"
+
+1323675340 d:\project\struggle\src\objecttemplate.h
+	"libs.h"
+	"types.h"
+	"TileRef.h"
+	"ObjectType.h"
+
+1323890062 d:\project\struggle\src\tileref.h
+	"types.h"
+	"TilesetType.h"
+
+1333228188 d:\project\struggle\src\tilesettype.h
+
+1323674358 d:\project\struggle\src\objecttype.h
+
+1323566649 d:\project\struggle\src\terraintemplate.h
+	"libs.h"
+	"types.h"
+	"TerrainType.h"
+	"TileRef.h"
+	"Color.h"
+
+1320027465 d:\project\struggle\src\terraintype.h
+
+1333205304 d:\project\struggle\src\color.h
+	"libs.h"
+
+1323776790 d:\project\struggle\src\landtype.h
+
+1320027721 d:\project\struggle\src\movetype.h
+
+1324732889 d:\project\struggle\src\creaturetemplate.h
+	"libs.h"
+	"types.h"
+	"GenderType.h"
+	"AlignType.h"
+	"TileRef.h"
+	"Color.h"
+
+1301936358 d:\project\struggle\src\gendertype.h
+
+1301936308 d:\project\struggle\src\aligntype.h
+
+1324732773 d:\project\struggle\src\creaturevector.h
+	"types.h"
+	<vector>
+	"Creature.h"
+
+1333237252 d:\project\struggle\src\draw.h
+	"libs.h"
+	"types.h"
+	"Random.h"
+	"Color.h"
+	"video.h"
+	"TextFrame.h"
+	"Dialog.h"
+	"StringScanner.h"
+
+1333219480 d:\project\struggle\src\video.h
+	"libs.h"
+	"types.h"
+	"progopt.h"
+	"Tileset.h"
+	"Sight.h"
+	"TerrainTemplate.h"
+	"ObjectTemplate.h"
+
+1333201592 d:\project\struggle\src\progopt.h
+	"libs.h"
+
+1323692638 d:\project\struggle\src\tileset.h
+	"libs.h"
+	"types.h"
+	"TilesetType.h"
+
+1333198427 d:\project\struggle\src\textframe.h
+	"libs.h"
+	"types.h"
+	"video.h"
+
+1324736996 d:\project\struggle\src\dialog.h
+	"libs.h"
+	"types.h"
+	"video.h"
+
+1324737002 d:\project\struggle\src\stringscanner.h
+	"libs.h"
+	"types.h"
+	"video.h"
+	"TextFrame.h"
+
+1333151292 d:\project\struggle\src\time.h
+	"libs.h"
+	<sstream>
+
+1391801906 source:d:\project\struggle\src\creaturetemplate.cpp
+	"CreatureTemplate.h"
+
+1324732822 source:d:\project\struggle\src\creaturevector.cpp
+	"CreatureVector.h"
+
+1323675047 source:d:\project\struggle\src\datamanager.cpp
+	"DataManager.h"
+
+1333059125 source:d:\project\struggle\src\dialog.cpp
+	"Dialog.h"
+
+1391802120 source:d:\project\struggle\src\draw.cpp
+	"draw.h"
+
+1333228887 source:d:\project\struggle\src\localplace.cpp
+	"LocalPlace.h"
+
+1333234738 source:d:\project\struggle\src\localstage.cpp
+	"LocalStage.h"
+
+1333220664 d:\project\struggle\src\localstage.h
+	"libs.h"
+	"types.h"
+	"LocalPlace.h"
+	"CreatureVector.h"
+	"Draw.h"
+	"Sound.h"
+	"TextFrame.h"
+	"Dialog.h"
+	"StringScanner.h"
+	"Time.h"
+
+1391803470 d:\project\struggle\src\sound.h
+	"libs.h"
+	"progopt.h"
+	"adplug/adplug.h"
+	"adplug/emuopl.h"
+	"Random.h"
+	"Timer.h"
+
+1045403030 d:\project\struggle\src\adplug\adplug.h
+	<string>
+	"player.h"
+	"opl.h"
+	"fprovide.h"
+	"players.h"
+	"database.h"
+
+1176575877 d:\project\struggle\src\adplug\player.h
+	<string>
+	"fprovide.h"
+	"opl.h"
+	"database.h"
+
+1322485416 d:\project\struggle\src\adplug\fprovide.h
+	<string>
+	"../binio/binio.h"
+
+1126986092 d:\project\struggle\src\binio\binio.h
+	<string>
+
+1176058379 d:\project\struggle\src\adplug\opl.h
+
+1322485422 d:\project\struggle\src\adplug\database.h
+	<iostream>
+	<string>
+	"../binio/binio.h"
+
+1045856788 d:\project\struggle\src\adplug\players.h
+	<string>
+	<list>
+	"opl.h"
+	"player.h"
+
+1129397596 d:\project\struggle\src\adplug\emuopl.h
+	"opl.h"
+	"fmopl.h"
+
+1067874093 d:\project\struggle\src\adplug\fmopl.h
+	"ymdeltat.h"
+
+1323566649 d:\project\struggle\src\timer.h
+	"libs.h"
+	"types.h"
+
+1323773605 source:d:\project\struggle\src\mapeditor.cpp
+
+1323672794 source:d:\project\struggle\src\objecttemplate.cpp
+	"ObjectTemplate.h"
+
+1333058956 source:d:\project\struggle\src\random.cpp
+	"Random.h"
+
+1324730607 source:d:\project\struggle\src\sight.cpp
+	"Sight.h"
+
+1391803479 source:d:\project\struggle\src\sound.cpp
+	"sound.h"
+
+1336309433 source:d:\project\struggle\src\stringscanner.cpp
+	"StringScanner.h"
+
+1320028262 source:d:\project\struggle\src\terraintemplate.cpp
+	"TerrainTemplate.h"
+
+1333195895 source:d:\project\struggle\src\textbuffer.cpp
+
+1324737045 d:\project\struggle\src\textbuffer.h
+	"libs.h"
+	"types.h"
+	"TextFrame.h"
+	"video.h"
+
+1333198450 source:d:\project\struggle\src\textframe.cpp
+	"TextFrame.h"
+
+1323692512 source:d:\project\struggle\src\tileset.cpp
+	"Tileset.h"
+
+1333196450 source:d:\project\struggle\src\time.cpp
+	"time.h"
+
+1304962918 source:d:\project\struggle\src\timer.cpp
+	"Timer.h"
+
+1202761107 source:d:\project\struggle\src\adplug\a2m.cpp
+	<cstring>
+	"a2m.h"
+
+1176058379 d:\project\struggle\src\adplug\a2m.h
+	"protrack.h"
+
+1176058379 d:\project\struggle\src\adplug\protrack.h
+	"player.h"
+
+1202761107 source:d:\project\struggle\src\adplug\adl.cpp
+	<cstring>
+	<inttypes.h>
+	<stdarg.h>
+	<assert.h>
+	"adl.h"
+	"debug.h"
+
+1176575877 d:\project\struggle\src\adplug\adl.h
+	<inttypes.h>
+	"player.h"
+
+1033677159 d:\project\struggle\src\adplug\debug.h
+
+1127075972 source:d:\project\struggle\src\adplug\adlibemu.c
+	<math.h>
+	<string.h>
+
+1322485904 source:d:\project\struggle\src\adplug\adplug.cpp
+	<cstring>
+	<string>
+	"../binio/binfile.h"
+	"adplug.h"
+	"debug.h"
+	"hsc.h"
+	"amd.h"
+	"a2m.h"
+	"imf.h"
+	"sng.h"
+	"adtrack.h"
+	"bam.h"
+	"cmf.h"
+	"d00.h"
+	"dfm.h"
+	"hsp.h"
+	"ksm.h"
+	"mad.h"
+	"mid.h"
+	"mkj.h"
+	"cff.h"
+	"dmo.h"
+	"s3m.h"
+	"dtm.h"
+	"fmc.h"
+	"mtk.h"
+	"rad.h"
+	"raw.h"
+	"sa2.h"
+	"bmf.h"
+	"flash.h"
+	"hybrid.h"
+	"hyp.h"
+	"psi.h"
+	"rat.h"
+	"lds.h"
+	"u6m.h"
+	"rol.h"
+	"xsm.h"
+	"dro.h"
+	"dro2.h"
+	"msc.h"
+	"rix.h"
+	"adl.h"
+	"jbm.h"
+
+1047139353 d:\project\struggle\src\binio\binfile.h
+	<stdio.h>
+	"binio.h"
+
+1176575877 d:\project\struggle\src\adplug\hsc.h
+	"player.h"
+
+1043339225 d:\project\struggle\src\adplug\amd.h
+	"protrack.h"
+
+1139082242 d:\project\struggle\src\adplug\imf.h
+	"player.h"
+
+1041699053 d:\project\struggle\src\adplug\sng.h
+	"player.h"
+
+1043339224 d:\project\struggle\src\adplug\adtrack.h
+	"protrack.h"
+
+1043760873 d:\project\struggle\src\adplug\bam.h
+	"player.h"
+
+1262182379 d:\project\struggle\src\adplug\cmf.h
+	<stdint.h>
+	"player.h"
+
+1176831387 d:\project\struggle\src\adplug\d00.h
+	"player.h"
+
+1043760874 d:\project\struggle\src\adplug\dfm.h
+	"protrack.h"
+
+1096476343 d:\project\struggle\src\adplug\hsp.h
+	"hsc.h"
+
+1043760875 d:\project\struggle\src\adplug\ksm.h
+	"player.h"
+
+1043760875 d:\project\struggle\src\adplug\mad.h
+	"protrack.h"
+
+1213530436 d:\project\struggle\src\adplug\mid.h
+	"player.h"
+
+1052001185 d:\project\struggle\src\adplug\mkj.h
+	"player.h"
+
+1152138220 d:\project\struggle\src\adplug\cff.h
+	"protrack.h"
+
+1152138220 d:\project\struggle\src\adplug\dmo.h
+	"s3m.h"
+
+1141532040 d:\project\struggle\src\adplug\s3m.h
+	"player.h"
+
+1152138220 d:\project\struggle\src\adplug\dtm.h
+	"protrack.h"
+
+1043760875 d:\project\struggle\src\adplug\fmc.h
+	"protrack.h"
+
+1152138220 d:\project\struggle\src\adplug\mtk.h
+	"hsc.h"
+
+1043760875 d:\project\struggle\src\adplug\rad.h
+	"protrack.h"
+
+1129204430 d:\project\struggle\src\adplug\raw.h
+	"player.h"
+
+1043760876 d:\project\struggle\src\adplug\sa2.h
+	"protrack.h"
+
+1043760873 d:\project\struggle\src\adplug\bmf.h
+	"xad.h"
+
+1043760876 d:\project\struggle\src\adplug\xad.h
+	"player.h"
+
+1043760874 d:\project\struggle\src\adplug\flash.h
+	"xad.h"
+
+1043760875 d:\project\struggle\src\adplug\hybrid.h
+	"xad.h"
+
+1043760875 d:\project\struggle\src\adplug\hyp.h
+	"xad.h"
+
+1130073951 d:\project\struggle\src\adplug\psi.h
+	"xad.h"
+
+1130065532 d:\project\struggle\src\adplug\rat.h
+	"xad.h"
+
+1096317498 d:\project\struggle\src\adplug\lds.h
+	"player.h"
+
+1147857232 d:\project\struggle\src\adplug\u6m.h
+	<stack>
+	"player.h"
+
+1322493575 d:\project\struggle\src\adplug\rol.h
+	<vector>
+	<string>
+	<strings.h>
+	"player.h"
+	"mystrcasecmp.h"
+
+1322493588 d:\project\struggle\src\adplug\mystrcasecmp.h
+	<string>
+	<cstring>
+
+1052001273 d:\project\struggle\src\adplug\xsm.h
+	"player.h"
+
+1262322893 d:\project\struggle\src\adplug\dro.h
+	"player.h"
+
+1262319152 d:\project\struggle\src\adplug\dro2.h
+	<stdint.h>
+	"player.h"
+
+1141107475 d:\project\struggle\src\adplug\msc.h
+	"player.h"
+
+1154807393 d:\project\struggle\src\adplug\rix.h
+	"player.h"
+
+1176847946 d:\project\struggle\src\adplug\jbm.h
+	"player.h"
+
+1052001184 source:d:\project\struggle\src\adplug\adtrack.cpp
+	<stdlib.h>
+	<string.h>
+	"adtrack.h"
+	"debug.h"
+
+1176058379 source:d:\project\struggle\src\adplug\amd.cpp
+	<string.h>
+	"amd.h"
+	"debug.h"
+
+1145837895 source:d:\project\struggle\src\adplug\analopl.cpp
+	"analopl.h"
+
+1129204430 d:\project\struggle\src\adplug\analopl.h
+	"realopl.h"
+
+1129397596 d:\project\struggle\src\adplug\realopl.h
+	"opl.h"
+
+1043760873 source:d:\project\struggle\src\adplug\bam.cpp
+	<string.h>
+	"bam.h"
+
+1202761108 source:d:\project\struggle\src\adplug\bmf.cpp
+	<cstring>
+	"bmf.h"
+	"debug.h"
+
+1213530434 source:d:\project\struggle\src\adplug\cff.cpp
+	<cstring>
+	<stdlib.h>
+	<string.h>
+	"cff.h"
+
+1263613592 source:d:\project\struggle\src\adplug\cmf.cpp
+	<stdint.h>
+	<cassert>
+	<math.h>
+	<string.h>
+	"debug.h"
+	"cmf.h"
+
+1213530435 source:d:\project\struggle\src\adplug\d00.cpp
+	<string.h>
+	<stdio.h>
+	<inttypes.h>
+	"debug.h"
+	"d00.h"
+
+1322485924 source:d:\project\struggle\src\adplug\database.cpp
+	"../binio/binio.h"
+	"../binio/binfile.h"
+	<string.h>
+	"database.h"
+
+1035493835 source:d:\project\struggle\src\adplug\debug.c
+	<stdio.h>
+	<stdarg.h>
+
+1043760874 source:d:\project\struggle\src\adplug\dfm.cpp
+	<stdio.h>
+	<string.h>
+	"dfm.h"
+	"debug.h"
+
+1129977453 source:d:\project\struggle\src\adplug\diskopl.cpp
+	"diskopl.h"
+
+1129977453 d:\project\struggle\src\adplug\diskopl.h
+	<string>
+	<stdio.h>
+	"opl.h"
+	"player.h"
+
+1322485935 source:d:\project\struggle\src\adplug\dmo.cpp
+	<string.h>
+	"../binio/binstr.h"
+	"dmo.h"
+	"debug.h"
+
+1042309656 d:\project\struggle\src\binio\binstr.h
+	"binio.h"
+
+1270517615 source:d:\project\struggle\src\adplug\dro.cpp
+	<cstring>
+	<stdio.h>
+	"dro.h"
+
+1262322384 source:d:\project\struggle\src\adplug\dro2.cpp
+	<cstring>
+	<stdio.h>
+	"dro2.h"
+
+1202761109 source:d:\project\struggle\src\adplug\dtm.cpp
+	<cstring>
+	"dtm.h"
+
+1129496721 source:d:\project\struggle\src\adplug\emuopl.cpp
+	"emuopl.h"
+
+1043760874 source:d:\project\struggle\src\adplug\flash.cpp
+	"flash.h"
+	"debug.h"
+
+1213530435 source:d:\project\struggle\src\adplug\fmc.cpp
+	<cstring>
+	"fmc.h"
+
+1323773916 source:d:\project\struggle\src\adplug\fmopl.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<math.h>
+	"fmopl.h"
+
+1322493601 source:d:\project\struggle\src\adplug\fprovide.cpp
+	<string.h>
+	"../binio/binio.h"
+	"../binio/binfile.h"
+	"fprovide.h"
+	"mystrcasecmp.h"
+
+1094042029 source:d:\project\struggle\src\adplug\hsc.cpp
+	<string.h>
+	"hsc.h"
+	"debug.h"
+
+1096554489 source:d:\project\struggle\src\adplug\hsp.cpp
+	<string.h>
+	"hsp.h"
+
+1130065531 source:d:\project\struggle\src\adplug\hybrid.cpp
+	"hybrid.h"
+	"debug.h"
+
+1043760875 source:d:\project\struggle\src\adplug\hyp.cpp
+	"hyp.h"
+	"debug.h"
+
+1213530435 source:d:\project\struggle\src\adplug\imf.cpp
+	<string.h>
+	"imf.h"
+	"database.h"
+
+1176847946 source:d:\project\struggle\src\adplug\jbm.cpp
+	"jbm.h"
+
+1147857232 source:d:\project\struggle\src\adplug\ksm.cpp
+	<string.h>
+	"ksm.h"
+	"debug.h"
+
+1096396647 source:d:\project\struggle\src\adplug\lds.cpp
+	<string.h>
+	"lds.h"
+	"debug.h"
+
+1202761109 source:d:\project\struggle\src\adplug\mad.cpp
+	<cstring>
+	"mad.h"
+
+1221385602 source:d:\project\struggle\src\adplug\mid.cpp
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	"mid.h"
+	"mididata.h"
+
+1017065224 d:\project\struggle\src\adplug\mididata.h
+
+1202761110 source:d:\project\struggle\src\adplug\mkj.cpp
+	<cstring>
+	<assert.h>
+	"mkj.h"
+	"debug.h"
+
+1202761110 source:d:\project\struggle\src\adplug\msc.cpp
+	<cstring>
+	<stdio.h>
+	"msc.h"
+	"debug.h"
+
+1202761110 source:d:\project\struggle\src\adplug\mtk.cpp
+	<cstring>
+	"mtk.h"
+
+1322493588 source:d:\project\struggle\src\adplug\mystrcasecmp.cpp
+	"mystrcasecmp.h"
+
+1176058379 source:d:\project\struggle\src\adplug\player.cpp
+	"player.h"
+	"adplug.h"
+	"silentopl.h"
+
+1129204430 d:\project\struggle\src\adplug\silentopl.h
+	"opl.h"
+
+1322493629 source:d:\project\struggle\src\adplug\players.cpp
+	<stdlib.h>
+	<string.h>
+	"players.h"
+	"mystrcasecmp.h"
+
+1213530436 source:d:\project\struggle\src\adplug\protrack.cpp
+	<cstring>
+	"protrack.h"
+	"debug.h"
+
+1130073951 source:d:\project\struggle\src\adplug\psi.cpp
+	"psi.h"
+	"debug.h"
+
+1202761111 source:d:\project\struggle\src\adplug\rad.cpp
+	<cstring>
+	"rad.h"
+
+1202761111 source:d:\project\struggle\src\adplug\rat.cpp
+	<cstring>
+	"rat.h"
+	"debug.h"
+
+1202761111 source:d:\project\struggle\src\adplug\raw.cpp
+	<cstring>
+	"raw.h"
+
+1176132147 source:d:\project\struggle\src\adplug\realopl.cpp
+	<conio.h>
+	<conio.h>
+	<pc.h>
+	"realopl.h"
+
+1322493647 source:d:\project\struggle\src\adplug\rix.cpp
+	<cstring>
+	"rix.h"
+	"debug.h"
+	"mystrcasecmp.h"
+
+1322493663 source:d:\project\struggle\src\adplug\rol.cpp
+	<cstring>
+	<algorithm>
+	"rol.h"
+	"debug.h"
+	"mystrcasecmp.h"
+
+1213530436 source:d:\project\struggle\src\adplug\s3m.cpp
+	<cstring>
+	"s3m.h"
+
+1213530436 source:d:\project\struggle\src\adplug\sa2.cpp
+	<cstring>
+	<stdio.h>
+	<string.h>
+	"sa2.h"
+	"debug.h"
+
+1202761112 source:d:\project\struggle\src\adplug\sng.cpp
+	<cstring>
+	"sng.h"
+
+1262334373 source:d:\project\struggle\src\adplug\surroundopl.cpp
+	<math.h>
+	"surroundopl.h"
+	"debug.h"
+
+1262334386 d:\project\struggle\src\adplug\surroundopl.h
+	<stdint.h>
+	"opl.h"
+
+1097835470 source:d:\project\struggle\src\adplug\temuopl.cpp
+	"temuopl.h"
+
+1104699838 d:\project\struggle\src\adplug\temuopl.h
+	"opl.h"
+	"fmopl.h"
+
+1152138220 source:d:\project\struggle\src\adplug\u6m.cpp
+	"u6m.h"
+
+1045500170 source:d:\project\struggle\src\adplug\xad.cpp
+	"xad.h"
+	"debug.h"
+
+1052001272 source:d:\project\struggle\src\adplug\xsm.cpp
+	<string.h>
+	"xsm.h"
+
+1092858066 source:d:\project\struggle\src\binio\binfile.cpp
+	<stdio.h>
+	<errno.h>
+	"binfile.h"
+
+1092858080 source:d:\project\struggle\src\binio\binio.cpp
+	<string.h>
+	"binio.h"
+	<math.h>
+
+1043339128 source:d:\project\struggle\src\binio\binstr.cpp
+	"binstr.h"
+
+1322493708 source:d:\project\struggle\src\binio\binwrap.cpp
+	"binwrap.h"
+
+1047139354 d:\project\struggle\src\binio\binwrap.h
+	"binio.h"
+	<iostream>
+	<iostream.h>
+
+1335117505 source:d:\project\struggle\src\main.cpp
+	"libs.h"
+	<time.h>
+	"video.h"
+	"Sound.h"
+	"Random.h"
+	"WorldStage.h"
+	"LocalStage.h"
+	"DataManager.h"
+
+1333219480 source:d:\project\struggle\src\video.cpp
+	"Video.h"
+
+1333201592 source:d:\project\struggle\src\progopt.cpp
+	"progopt.h"
+
+1333310931 source:d:\project\struggle\src\worldplace.cpp
+	"WorldPlace.h"
+
+1333306374 d:\project\struggle\src\worldplace.h
+	"libs.h"
+	"types.h"
+	"Random.h"
+	"TileRef.h"
+	"WorldTerrainType.h"
+	"WorldObjectType.h"
+	"Coord.h"
+	"MoveType.h"
+	"HexPos.h"
+
+1333309531 d:\project\struggle\src\worldterraintype.h
+
+1333304789 d:\project\struggle\src\worldobjecttype.h
+
+1335121527 source:d:\project\struggle\src\worldstage.cpp
+	"WorldStage.h"
+
+1333234931 d:\project\struggle\src\worldstage.h
+	"libs.h"
+	"types.h"
+	"Draw.h"
+	"Sound.h"
+	"LocalStage.h"
+	"WorldPlace.h"
+	"TextFrame.h"
+	"Dialog.h"
+	"StringScanner.h"
+	"Time.h"
+
