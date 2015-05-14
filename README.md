@@ -29,6 +29,11 @@ It never finished its planned features and never released as a playable game.
 
 GPL v2
 
+Some image resources (creature/character tiles) are of [Dungeon Crawl Stone Soup].
+
 
 [sdl]: https://www.libsdl.org
 [adplug]: http://adplug.sourceforge.net
+[crawl]: https://crawl.develz.org
+
+
