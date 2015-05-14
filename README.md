@@ -3,6 +3,7 @@ hexa-map-rpg
 My hexagonal map based RPG project in 2011 ~ 2012.
 
 ![screenshot-height](https://raw.githubusercontent.com/bakyeono/hexa-map-rpg/master/document/screenshot-height.jpg)
+![line-of-sight](https://raw.githubusercontent.com/bakyeono/hexa-map-rpg/master/document/lineofsight-calculation1.jpg)
 
 See more screenshots in `./document/`
 
